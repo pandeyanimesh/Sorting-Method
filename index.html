@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sorting Method</title>
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+    <h1>Sorting Method</h1>
+
+    <div class="Container">
+      <div class="Array">
+
+        <button type="button" id="New-Array">New Array</button>
+        <span>
+            no of bar :
+            <input id="arr_sz" type="range" min=20 max=100 step=1 value=60>
+       </span>
+       <span>
+           speed :
+           <input id="speed" type="range" min=1 max=20 step=1 value=5>
+      </span>
+     </div>
+
+
+
+      <div class="Algo">
+        <button type="button" id="Bubble-Sort">Bubble Sort</button>
+        <button type="button" id="Selection-Sort">Selection Sort</button>
+        <button type="button" id="Insertion-Sort">Insertion Sort</button>
+      <!--   <button type="button" id="Quick-Sort">Quick Sort</button>
+          <button type="button" id="Merge-Sort">Merge Sort</button> -->
+      </div>
+    </div>
+    <br>
+    <div class="Bars" id="bar">
+
+    </div>
+
+  <script src="array.js" charset="utf-8"></script>
+  <script src="bubbleSort.js" charset="utf-8"></script>
+  <script src="SelectionSort.js" charset="utf-8"></script>
+  <script src="InsertionSort.js" charset="utf-8"></script>
+    <!-- <script src="QuickSort.js" charset="utf-8"></script>
+      <script src="MergeSort.js" charset="utf-8"></script> -->
+  </body>
+</html>

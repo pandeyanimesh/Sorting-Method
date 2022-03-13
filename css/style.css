@@ -1,0 +1,23 @@
+h1{
+  text-align:center;
+}
+body{
+background-color: #203239;
+	color:#fff;
+}
+.Container{
+  display: flex;
+  border-width:1px;
+  border-color:red;
+}
+.Array{
+  flex:2;
+}
+.Algo{
+  flex:1;
+}
+.Bars{
+  display: flex;
+  justify-content: center;
+
+}
