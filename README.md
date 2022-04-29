@@ -11,3 +11,6 @@ This site supports the following sorting algorithms:
 * Insertion Sort.
 
 * Selection Sort.
+
+# Link 
+ https://pandeyanimesh.github.io/Sorting-Method/
