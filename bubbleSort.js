@@ -8,9 +8,7 @@ const bubbleSort = document.getElementById("Bubble-Sort");
 const SelectionSort = document.getElementById("Selection-Sort");
 
 bubbleSort.addEventListener("click",async function (){
-    SelectionSort.disabled=true;
-    InsertionSort.disabled=true;
-    arrayNew.disabled=true;
+   toggleButtons(true, 'selection', 'insertion','quick','merge', 'array');
    for (var i = 0; i < arr.length; i++) {
       for (var j = 0; j < arr.length-i-1; j++) {
             var d1 = document.getElementsByClassName("bar"+j)[0];
@@ -63,8 +61,6 @@ bubbleSort.addEventListener("click",async function (){
 
 
 
-SelectionSort.disabled=false;
-InsertionSort.disabled=false;
-arrayNew.disabled=false;
+toggleButtons(false);
 
 });

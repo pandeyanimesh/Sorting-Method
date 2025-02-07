@@ -1,9 +1,7 @@
 const InsertionSort = document.getElementById("Insertion-Sort");
 
 InsertionSort.addEventListener("click",async function (){
-  SelectionSort.disabled=true;
-  bubbleSort.disabled=true;
-  arrayNew.disabled=true;
+  toggleButtons(true, 'bubble','selection','quick','merge', 'array');
    for (var i = 0; i < arr.length; i++) {
 
       for (var j = i; j > 0; j--) {
@@ -53,7 +51,5 @@ InsertionSort.addEventListener("click",async function (){
 
 }
 
-SelectionSort.disabled=false;
-bubbleSort.disabled=false;
-arrayNew.disabled=false;
+toggleButtons(false);
 });
